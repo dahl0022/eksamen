@@ -22,10 +22,9 @@ nav a {
   float: left;
 }
 nav a {
-  /* display: block; */
   color: black;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px;
   text-decoration: none;
   font-family: "Barlow", sans-serif;
   font-size: 1rem;
@@ -83,12 +82,16 @@ footer {
   z-index: 1;
   background-color: rgba(255, 255, 255, 0.842);
   padding-bottom: 50px;
-
   padding-left: 1%;
 }
+
 main nav ul {
   list-style-type: none;
   margin: 0;
+  padding: 0;
+}
+main nav ul a {
+  margin: 15px;
   padding: 0;
 }
 main nav li {

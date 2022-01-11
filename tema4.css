@@ -1,15 +1,7 @@
-/* main nav li {
-  float: left;
+.pilot {
+  margin-left: 14.4%;
+  margin-top: 1%;
 }
-
-main nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-main {
-  padding-top: 70px;
-} */
 h1 {
   font-family: "Bungee Inline", cursive;
   font-size: 4rem;

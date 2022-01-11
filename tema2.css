@@ -85,7 +85,6 @@ main nav {
   padding-top: 47%;
 }
 
-/* Then style the iframe to fit in the container div with full height and width */
 .responsive-iframe {
   position: absolute;
   top: 0;

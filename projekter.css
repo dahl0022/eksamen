@@ -1,0 +1,83 @@
+main a img {
+  width: 350px;
+  height: auto;
+}
+.section_1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2%;
+}
+
+main img {
+  width: 100%;
+}
+main {
+  margin: 1%;
+  padding-top: 70px;
+}
+.knap {
+  transition: ease 1s;
+  margin: 1%;
+  padding: 1%;
+}
+.knap:hover {
+  transition: ease 1s;
+  background-color: lavender;
+  border-radius: 5%;
+}
+.sprite {
+  padding: 1%;
+}
+nav {
+  position: sticky;
+  display: block;
+  top: 0%;
+  z-index: 2;
+  background-color: rgba(255, 255, 255, 0.719);
+  padding-bottom: 56px;
+  margin-top: 0;
+  padding-top: 0;
+}
+/*inspireret af W3schools https://www.w3schools.com/howto/howto_css_loader.asp*/
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 120px;
+  height: 120px;
+  margin: -76px 0 0 -76px;
+  border: 7px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #f3f3f3;
+  border-bottom: 2px solid #f3f3f3;
+  animation: spin 2s linear infinite;
+}
+#myDiv {
+  display: none;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.indhold {
+  position: relative;
+  animation-name: indhold_kf;
+  animation-duration: 1s;
+}
+
+@keyframes indhold_kf {
+  0% {
+    bottom: -100px;
+    opacity: 0;
+  }
+  100% {
+    bottom: 0;
+    opacity: 1;
+  }
+}

@@ -1,0 +1,65 @@
+h1 {
+  font-family: "Bungee Inline", cursive;
+  font-size: 4rem;
+  text-transform: uppercase;
+  letter-spacing: 2.5rem;
+  color: orangered;
+  font-weight: 100;
+  text-align: left;
+}
+@media (min-width: 1020px) {
+  #section_1 .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2%;
+  }
+}
+@media (min-width: 1250px) {
+  #section_1 .section_wrapper .tekst {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2%;
+  }
+}
+@media (max-width: 1020px) {
+  #section_1 .section_wrapper .tekst {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2%;
+  }
+}
+@media (max-width: 600px) {
+  #section_1 .section_wrapper .tekst {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+h2 {
+  text-align: center;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+#section_1 {
+  margin-top: 1%;
+  margin: 3%;
+}
+.tekst {
+  margin-bottom: 5%;
+}
+#section_2 .section_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#section_2 .section_wrapper div {
+  width: 350px;
+  margin: 1%;
+}
+#section_2 {
+  margin-top: 1%;
+  margin: 3%;
+}
+.streg {
+  padding: 1%;
+  border: dotted 0.3px orangered;
+}

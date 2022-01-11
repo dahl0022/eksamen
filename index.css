@@ -1,0 +1,428 @@
+#screen {
+  position: relative;
+  width: 100vw;
+  aspect-ratio: 16/8;
+  overflow: hidden;
+  margin-top: 0;
+  padding-top: 0;
+}
+#projekt1_container {
+  width: 30%;
+  position: absolute;
+  aspect-ratio: 1179/728;
+}
+#projekt1_sprite {
+  width: 100%;
+  height: 100%;
+  background-image: url(img/projekt1.jpg);
+  background-size: cover;
+}
+.projekt1 {
+  animation-name: projekt1_kf;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  /* animation-iteration-count: infinite; */
+  animation-timing-function: linear;
+}
+@keyframes projekt1_kf {
+  0% {
+    transform: translateX(-120%) translateY(50%);
+  }
+
+  100% {
+    transform: translateX(10%) translateY(10%);
+  }
+}
+
+#projekt2_container {
+  width: 45%;
+  position: absolute;
+  aspect-ratio: 1179/728;
+  /* top: 45%;
+  left: 10%; */
+}
+#projekt2_sprite {
+  width: 100%;
+  height: 100%;
+  background-image: url(img/projekt2.jpg);
+  background-size: cover;
+}
+.projekt2 {
+  animation-name: projekt2_kf;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  /* animation-iteration-count: infinite; */
+  animation-timing-function: linear;
+  animation-delay: 4s;
+}
+@keyframes projekt2_kf {
+  0% {
+    transform: translateX(250%) translateY(50%);
+  }
+
+  100% {
+    transform: translateX(20%) translateY(80%);
+  }
+}
+#projekt3_container {
+  width: 30%;
+  position: absolute;
+  aspect-ratio: 1179/728;
+  /* top: 65%;
+  left: 65%; */
+}
+#projekt3_sprite {
+  width: 100%;
+  height: 100%;
+  background-image: url(img/projekt3.jpg);
+  background-size: cover;
+}
+.projekt3 {
+  animation-name: projekt3_kf;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  /* animation-iteration-count: infinite; */
+  animation-timing-function: linear;
+  animation-delay: 6.5s;
+}
+@keyframes projekt3_kf {
+  0% {
+    transform: translateX(220%) translateY(350%);
+  }
+
+  100% {
+    transform: translateX(200%) translateY(150%);
+  }
+}
+#projekt4_container {
+  width: 40%;
+  position: absolute;
+  aspect-ratio: 1179/728;
+  /* top: 5%;
+  left: 55%; */
+}
+#projekt4_sprite {
+  width: 100%;
+  height: 100%;
+  background-image: url(img/projekt4.jpg);
+  background-size: cover;
+}
+.projekt4 {
+  animation-name: projekt4_kf;
+  animation-duration: 3s;
+  animation-fill-mode: both;
+  /* animation-iteration-count: infinite; */
+  animation-timing-function: linear;
+  animation-delay: 9s;
+}
+@keyframes projekt4_kf {
+  0% {
+    transform: translateX(-220%) translateY(20%);
+  }
+
+  100% {
+    transform: translateX(140%) translateY(0%);
+  }
+}
+#mus_container {
+  width: 1%;
+  position: absolute;
+  aspect-ratio: 231/209;
+  /* top: 5%;
+  left: 55%; */
+}
+#mus_sprite {
+  width: 100%;
+  height: 100%;
+  background-image: url(img/mus.svg);
+  background-size: cover;
+}
+.mus {
+  animation-name: mus_kf;
+  animation-duration: 4s;
+  animation-fill-mode: both;
+  /* animation-iteration-count: infinite; */
+  animation-timing-function: linear;
+}
+@keyframes mus_kf {
+  0% {
+    transform: translateX(-1100%) translateY(1050%);
+  }
+
+  50% {
+    transform: translateX(2800%) translateY(250%);
+  }
+  100% {
+    transform: translateX(12000%) translateY(1500%);
+  }
+}
+#mus2_container {
+  width: 1%;
+  position: absolute;
+  aspect-ratio: 231/209;
+  /* top: 5%;
+  left: 55%; */
+}
+#mus2_sprite {
+  width: 100%;
+  height: 100%;
+  background-image: url(img/mus.svg);
+  background-size: cover;
+}
+.mus2 {
+  animation-name: mus2_kf;
+  animation-duration: 4s;
+  animation-fill-mode: both;
+  /* animation-iteration-count: infinite; */
+  animation-timing-function: linear;
+  animation-delay: 4s;
+}
+@keyframes mus2_kf {
+  0% {
+    transform: translateX(12000%) translateY(1600%);
+  }
+  50% {
+    transform: translateX(1700%) translateY(2510%);
+  }
+  100% {
+    transform: translateX(2700%) translateY(7000%);
+  }
+}
+#mus3_container {
+  width: 1%;
+  position: absolute;
+  aspect-ratio: 231/209;
+  /* top: 5%;
+  left: 55%; */
+}
+#mus3_sprite {
+  width: 100%;
+  height: 100%;
+  background-image: url(img/mus.svg);
+  background-size: cover;
+}
+.mus3 {
+  animation-name: mus3_kf;
+  animation-duration: 2.8s;
+  animation-fill-mode: both;
+  /* animation-iteration-count: infinite; */
+  animation-timing-function: linear;
+  animation-delay: 7.1s;
+}
+@keyframes mus3_kf {
+  0% {
+    transform: translateX(7000%) translateY(6000%);
+  }
+  50% {
+    transform: translateX(6600%) translateY(3170%);
+  }
+  100% {
+    transform: translateX(-2000%) translateY(500%);
+  }
+}
+#mus4_container {
+  width: 1%;
+  position: absolute;
+  aspect-ratio: 231/209;
+  /* top: 5%;
+  left: 55%; */
+}
+#mus4_sprite {
+  width: 100%;
+  height: 100%;
+  background-image: url(img/mus.svg);
+  background-size: cover;
+}
+.mus4 {
+  animation-name: mus4_kf;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+  animation-delay: 10s;
+}
+@keyframes mus4_kf {
+  0% {
+    transform: translateX(-3000%) translateY(400%);
+  }
+  100% {
+    transform: translateX(6500%) translateY(45%);
+  }
+}
+#screen .section_wrapper {
+  width: 100%;
+  height: 100vh;
+  block-size: 768px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.5fr 1fr 2fr;
+  /* gap: 10px; */
+  margin-left: 10px;
+}
+.overskrift {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  z-index: 1;
+  color: rgb(156, 190, 204);
+  /* font-family: "Rock 3D", cursive; */
+  font-family: "Bungee Inline", cursive;
+  font-size: 5vw;
+  text-align: center;
+  font-weight: 100;
+}
+h2 {
+  font-size: 2vw;
+  text-align: center;
+  font-family: "Barlow", sans-serif;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+@media (max-width: 800px) {
+  #screen .section_wrapper {
+    width: 100%;
+    height: 100vh;
+    block-size: 768px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 12fr;
+    /* gap: 10px; */
+    margin-left: 10px;
+  }
+  .overskrift {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    z-index: 1;
+    text-align: center;
+  }
+}
+@media (max-width: 700px) {
+  #section_2 .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+@media (min-width: 900px) {
+  #section_2 .section_wrapper {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 3%;
+  }
+}
+#section_2 {
+  margin: 2%;
+  margin-top: 12%;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+#section_2 .section_wrapper h2 {
+  font-size: 2rem;
+}
+#section_2 .section_wrapper .left {
+  display: grid;
+  grid-template-columns: 1fr 1.3fr;
+}
+#section_2 .section_wrapper .left .op {
+  text-align: right;
+}
+#section_2 .section_wrapper .left .ned {
+  text-align: left;
+  grid-row: 2/3;
+  grid-column: 2/3;
+}
+#section_3 {
+  margin: 2%;
+  margin-top: 30px;
+  padding-top: 0;
+}
+#section_3 h2 {
+  font-size: 2rem;
+  letter-spacing: 20px;
+  font-weight: 200;
+  text-align: center;
+  color: coral;
+}
+
+.tema {
+  height: 250px;
+  width: 250px;
+  border: 5px solid #fff;
+  border-radius: 15px;
+  margin-top: 3%;
+}
+
+.tema_1 {
+  background: coral;
+  transition: ease 1s;
+  color: rgb(173, 86, 54);
+}
+.tema_2 {
+  background: darkolivegreen;
+  transition: ease 1s;
+  color: rgb(42, 53, 23);
+}
+.tema_3 {
+  background: rgb(156, 190, 204);
+  transition: ease 1s;
+  color: rgb(105, 127, 136);
+}
+.tema_4 {
+  background: deeppink;
+  transition: ease 1s;
+  color: rgb(158, 14, 91);
+}
+.tema_5 {
+  background: orangered;
+  transition: ease 1s;
+  color: rgb(151, 40, 0);
+}
+.tema_1:hover {
+  scale: 102%;
+  color: rgb(255, 177, 148);
+  transition: ease 1s;
+}
+.tema_2:hover {
+  scale: 102%;
+  color: rgb(109, 136, 61);
+  transition: ease 1s;
+}
+.tema_3:hover {
+  scale: 102%;
+  transition: ease 1s;
+  color: rgb(183, 220, 235);
+}
+.tema_4:hover {
+  scale: 102%;
+  transition: ease 1s;
+  color: rgb(253, 112, 187);
+}
+.tema_5:hover {
+  scale: 102%;
+  transition: ease 1s;
+  color: rgb(255, 123, 75);
+}
+.foerste_sem_projekter {
+  display: flex;
+  flex-flow: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.foerste_sem_projekter h3 {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 250px;
+  font-family: "Barlow", sans-serif;
+}
+.foerste_sem_projekter a {
+  text-decoration: none;
+}
+nav {
+  position: sticky;
+  display: block;
+  top: 0%;
+  z-index: 2;
+  background-color: rgba(255, 255, 255, 0.719);
+  padding-bottom: 56px;
+  margin-top: 0;
+  padding-top: 0;
+}
